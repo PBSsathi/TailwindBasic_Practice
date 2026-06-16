@@ -11,7 +11,7 @@ export default function Toaste() {
   return (
     <>
       <button onClick={notify} className="bg-blue-500 w-50 border justify-center border-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Show Toast
+        Toast Click
       </button>
       <ToastContainer />
     </>
